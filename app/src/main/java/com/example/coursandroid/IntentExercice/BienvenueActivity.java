@@ -19,11 +19,9 @@ public class BienvenueActivity extends AppCompatActivity {
         TextView txtNom = findViewById(R.id.txtNom);
         TextView txtPrenom = findViewById(R.id.txtPrenom);
 
-        // Récupérer les données transmises
         String nom = getIntent().getStringExtra("nom");
         String prenom = getIntent().getStringExtra("prenom");
 
-        // Afficher les données
         txtBienvenue.setText(
                 "Bienvenue " + prenom + " " + nom + " !"
         );
