@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Démonstration ImageView"
+        android:textSize="22sp"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:id="@+id/imgDemo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="Icône affichée"
+        android:scaleType="fitCenter"/>
+
+    <Button
+        android:id="@+id/btnChangerImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Changer l'image"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
