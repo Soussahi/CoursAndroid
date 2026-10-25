@@ -1,4 +1,4 @@
-package com.example.coursandroid;
+package com.example.coursandroid.composantAndroid;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -7,6 +7,8 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.coursandroid.R;
 
 public class RadioButtonActivity extends AppCompatActivity {
 

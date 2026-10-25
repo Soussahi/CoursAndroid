@@ -1,5 +1,5 @@
 
-package com.example.coursandroid;
+package com.example.coursandroid.composantAndroid;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -8,6 +8,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.coursandroid.R;
 
 public class SpinnerActivity extends AppCompatActivity {
 

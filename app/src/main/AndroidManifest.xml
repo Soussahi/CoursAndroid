@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoursAndroid">
         <activity
-            android:name=".MainActivity"
+            android:name=".composantAndroid.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -22,31 +22,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EditTextActivity"
+            android:name=".composantAndroid.EditTextActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".CheckBoxActivity"
+            android:name=".composantAndroid.CheckBoxActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".RadioButtonActivity"
+            android:name=".composantAndroid.RadioButtonActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".ImageViewActivity"
+            android:name=".composantAndroid.ImageViewActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".SwitchActivity"
+            android:name=".composantAndroid.SwitchActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".SpinnerActivity"
+            android:name=".composantAndroid.SpinnerActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".ProgressBarActivity"
+            android:name=".composantAndroid.ProgressBarActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

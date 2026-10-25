@@ -1,5 +1,5 @@
 
-package com.example.coursandroid;
+package com.example.coursandroid.composantAndroid;
 
 import android.os.Bundle;
 import android.widget.Switch;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.coursandroid.R;
 
 public class SwitchActivity extends AppCompatActivity {
 

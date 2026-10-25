@@ -1,10 +1,12 @@
-package com.example.coursandroid;
+package com.example.coursandroid.composantAndroid;
 
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.coursandroid.R;
 
 public class ImageViewActivity extends AppCompatActivity {
 
